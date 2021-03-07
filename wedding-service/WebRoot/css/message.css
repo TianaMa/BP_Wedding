@@ -1,0 +1,85 @@
+#container {
+	margin: -10px 0 -10px 0;
+	width: 1000px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+.nav_c {
+	float: left;
+	width: 288px;
+	background: url(../images/menu_bg.gif);
+	height: 35px;
+	text-align: left;
+	line-height: 35px;
+}
+
+.nav_v {
+	float: right;
+	background: url(../images/menu_bg.gif);
+	background-position: 0 -35;
+	height: 35px;
+	width: 712px;
+}
+
+.nav_c span {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-left: 25px;
+}
+
+#message {
+	width: 1000px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.td_left {
+	text-align: center;
+}
+
+#meesage .message_l {
+	float: left;
+	clear: left;
+	width: 200px;
+	height: 150px;
+	magin: 10 0 0 0;
+	border: 1px solid #A9A9F5;
+	font-weight: bold;
+	padding-left: 25px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#message .message_r {
+	float: left;
+	width: 785px;
+	height: 150px;
+	magin: 10 0 0 10;
+	border: 1px solid #A9A9F5;
+}
+
+.sh_l {
+	height: 120;
+	border: 1px solid #A9A9F5;
+	width: 200px;
+	float: left;
+	margin: 10 10 0 0;
+	line-height: 110px;
+}
+
+.sh_r {
+	height: 120;
+	border: 1px solid #A9A9F5;
+	width: 788px;
+	float: right;
+	margin: 10 0 0 0;
+}
+
+.sh_l img{
+	height: 90;
+	border: 0;
+	width: 180px;
+	margin: 10 10 10 10;
+}

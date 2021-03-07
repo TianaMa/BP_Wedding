@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wedding.service.entity">
+	<class name="ShoppingCart" table="shopping_cart">
+		<id name="id" column="cart_id">
+			<generator class="native" />
+		</id>
+		<set name="server" inverse="false" table="cart_server"
+			lazy="false">
+			<key column="cart_id" />
+			<many-to-many class="Server" column="server_id" />
+		</set>
+		<set name="hotel" inverse="false"  table="cart_hotel"
+			lazy="false">
+			<key column="cart_id" />
+			<many-to-many class="Hotel" column="hotel_id" />
+		</set>
+		<set name="company" inverse="false"  table="cart_company"
+			lazy="false">
+			<key column="cart_id" />
+			<many-to-many class="Company" column="company_id" lazy="false" />
+		</set>
+		<many-to-one name="customer" column="customer_id" lazy="false" unique="true" />
+		<property name="time" column="sh_time" />
+	</class>
+</hibernate-mapping>

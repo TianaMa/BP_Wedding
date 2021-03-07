@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.STYLE1 {
+	color: #000000;
+	font-size: 12px;
+}
+
+.STYLE6 {
+	color: #000000;
+	font-size: 12;
+}
+
+.STYLE10 {
+	color: #000000;
+	font-size: 12px;
+}
+
+.STYLE19 {
+	color: #344b50;
+	font-size: 12px;
+}
+
+.STYLE21 {
+	font-size: 12px;
+	color: #3b6375;
+}
+
+.STYLE22 {
+	font-size: 12px;
+	color: #295568;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wedding.service.entity">
+	<class name="Order" table="orderinfo">
+		<id name="id" column="order_id">
+			<generator class="native" />
+		</id>
+		<set name="server" inverse="true" table="order_server"  lazy="false" cascade="save-update">
+			<key column="order_id" />
+			<many-to-many class="Server" column="server_id" />
+		</set>
+		<many-to-one name="hotel" column="hotel_id" lazy="false"
+			cascade="save-update" />
+		<many-to-one name="company" column="company_id" lazy="false"
+			cascade="save-update" />
+		<many-to-one name="customer" column="customer_id" lazy="false"
+			cascade="save-update" />
+		<property name="time" column="o_time" />
+		<property name="number" column="o_name" />
+		<property name="status" column="o_status" />
+		<property name="total" column="o_total" />
+	</class>
+</hibernate-mapping>

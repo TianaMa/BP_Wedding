@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+#container {
+	margin: -10px 0 -10px 0;
+	width: 1000px;
+	height: 400px;
+	border: 1px solid #A9A9F5;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#login_l{
+	margin: 10px 0 0 10px;
+	width: 400px;
+	float:left;
+	clear:left;
+}
+
+.nav_c {
+	float: left;
+	clear: left;
+	background: url(../images/menu_bg.gif);
+	height: 35px;
+	text-align: left;
+	line-height: 35px;
+}
+
+.nav_v {
+	float: left;
+	clear: right;
+	background: url(../images/menu_bg.gif);
+	background-position: 0 -35;
+	height: 35px;
+}
+
+.nav_c span {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-left: 25px;
+}

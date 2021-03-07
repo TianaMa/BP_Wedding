@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+#msg_weibo {
+	width:270px;
+    height:260px;
+    *height:260px;
+    _height:260px;
+    margin:0px 10px 0 0px;
+    zoom:1;
+    overflow:hidden;
+    line-height:20px;
+    margin-bottom:4px;
+    } 
+#msg_weibo a{
+	color:green;
+    text-decoration:none;
+    font-size: 13px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+ } 
+#msg_weibo a:hover{
+	color:#c00;
+	text-decoration:underline;
+} 
+
+#msg_weibo a{
+	margin-left:5px;
+	display:block;
+}
+div.div_header{
+	border:2px solid #A9A9F5; 
+	width:300px;
+	height:10px;
+	vertical-align:top;
+	text-align:left;
+	font-size:14px;
+	color:#ffffff;
+	padding:6px;
+	background-color:#A9A9F5;
+}
+	

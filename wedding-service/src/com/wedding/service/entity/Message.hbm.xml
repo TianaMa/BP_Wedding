@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wedding.service.entity">
+	<class name="Message">
+		<id name="id" column="message_id">
+			<generator class="native" />
+		</id>
+		<property name="subject" />
+		<property name="releaser" />
+		<property name="createTime" column="c_time"/>
+		<property name="description" />
+		<property name="type"/>
+		<map name="reply" table="reply_map" lazy="false">
+			<key column="reply_map_id" />
+			<map-key type="string" column="reply_message"/>
+			<element type="string" column="customer_name" />
+		</map>
+	</class>
+</hibernate-mapping>

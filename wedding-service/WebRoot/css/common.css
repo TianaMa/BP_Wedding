@@ -1,0 +1,36 @@
+.tips_show{
+	padding-left:20px;
+	background-image:url("../images/onShow.gif");
+	background-position:left;
+	background-repeat:no-repeat;
+	color: black;
+	font-size: 14px;
+	font-family: monospace;
+}
+.tips_focus{
+	padding-left:20px;
+	background-image:url("../images/onFocus.gif");
+	background-position:left;
+	background-repeat:no-repeat;
+	color: blue;
+	font-size: 14px;
+	font-family: monospace;
+}
+.tips_error{
+	padding-left:20px;
+	background-image:url("../images/onError.gif");
+	background-position:left;
+	background-repeat:no-repeat;
+	color: red;
+	font-size: 14px;
+	font-family: monospace;
+}
+.tips_correct{
+	padding-left:20px;
+	background-image:url("../images/onCorrect.gif");
+	background-position:left;
+	background-repeat:no-repeat;
+	color: green;
+	font-size: 14px;
+	font-family: monospace;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.wedding.service.entity">
+	<class name="Company">
+		<id name="id" column="company_id">
+			<generator class="native" />
+		</id>
+		<property name="name" />
+		<property name="address" />
+		<property name="description" />
+		<property name="phone" />
+		<property name="grade" />
+		<property name="price" />
+		<property name="picture" />
+		<property name="ordered" />
+		<list name="order" table="orderinfo" cascade="all" lazy="false">
+			<key column="company_id" />
+			<list-index column="c_index" />
+			<one-to-many class="Order" />
+		</list>
+	</class>
+</hibernate-mapping>

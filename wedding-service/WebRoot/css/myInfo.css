@@ -1,0 +1,49 @@
+#container {
+	margin: -10px 0 -10px 0;
+	width: 1000px;
+	border: 1px solid #A9A9F5;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+.nav_c {
+	float: left;
+	width: 288px;
+	background: url(../images/menu_bg.gif);
+	height: 35px;
+	text-align: left;
+	line-height: 35px;
+}
+
+.nav_v {
+	float: right;
+	background: url(../images/menu_bg.gif);
+	background-position: 0 -35;
+	height: 35px;
+	width: 712px;
+}
+
+.nav_c span {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-left: 25px;
+}
+#modify{
+	width: 502px;
+	height:300px;
+	margin:10 0 0 10;
+	float: left;
+	clear:left;
+}
+.first{
+	text-align:center;
+	width:200px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.middle{
+	text-align:left;
+	width:300px;
+}

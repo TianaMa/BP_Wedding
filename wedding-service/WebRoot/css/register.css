@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+#rcontainer {
+	margin: -10px 0 -10px 0;
+	width: 1000px;
+	border: 1px solid #A9A9F5;
+	text-align:center;
+}
+
+#rcontainer ul li {
+	text-align: left;
+	margin: 20px 0 0 30px;
+	font: bold 16px/ 22px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#rcontainer td {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#rcontainer .first{
+	text-align:right;
+	width:40%
+}
+#rcontainer .middle{
+	text-align:left;
+	width:30%
+}

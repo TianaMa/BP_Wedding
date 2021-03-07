@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+	<package name="wedding" extends="struts-default" namespace="/">
+		<action name="pageDisplay"
+			class="com.wedding.service.action.PageDisplayDispatchAction">
+			<result name="index">/index.jsp</result>
+			<result name="messages">/messages.jsp</result>
+			<result name="companys">/companys.jsp</result>
+			<result name="hotels">/hotels.jsp</result>
+			<result name="servers">/servers.jsp</result>
+			<result name="server">/server.jsp</result>
+			<result name="hotel">/hotel.jsp</result>
+			<result name="company">/company.jsp</result>
+		</action>
+		<action name="customer"
+			class="com.wedding.service.action.CustomerDispatchAction">
+			<result name="register_success">/register.jsp</result>
+			<result name="register_error">/register.jsp</result>
+			<result name="login_error">/login.jsp</result>
+			<result name="modify_success">/myInfo.jsp</result>
+			<result name="login_success" type="redirectAction">customer!showIndex</result>
+			<result name="exit_success" type="redirectAction">customer!showIndex</result>
+			<result name="to_login">/login.jsp</result>
+			<result name="to_modify">/myInfo.jsp</result>
+			<result name="success">/index.jsp</result>
+			<result name="order">/myOrder.jsp</result>
+			<result name="shoppingCart">/shoppingCart.jsp</result>
+			<result name="to_myorder" type="redirectAction">customer!showOrder</result>
+			<result name="to_shoppingcart" type="redirectAction">customer!showCart</result>
+			<result name="to_order" type="redirectAction">customer!order</result>
+		</action>
+		<action name="message" class="com.wedding.service.action.MessageDispatchAction">
+			<result name="to_login">/login.jsp</result>
+			<result name="messages">/messages.jsp</result>
+			<result name="message">/message.jsp</result>
+			<result name="show" type="redirectAction">message!show</result>
+		</action>
+
+		<action name="admin" class="com.wedding.service.action.AdminDispacthAction">
+			<result name="success">/main.jsp</result>
+			<result name="error">/alogin.jsp</result>
+			<result name="admin">/mdadmin.jsp</result>
+			<result name="adminAll" type="redirectAction">admin!showAll
+			</result>
+			<result name="showAdminList">/mgadmin.jsp</result>
+		</action>
+
+		<action name="hotel" class="com.wedding.service.action.HotelDispacthAction">
+			<result name="hotel">/mdhotel.jsp</result>
+			<result name="error">/mshotel.jsp</result>
+			<result name="success" type="redirectAction">hotel!showAll
+			</result>
+			<result name="showHotelList">/mghotel.jsp</result>
+		</action>
+
+		<action name="company" class="com.wedding.service.action.CompanyDispacthAction">
+			<result name="company">/mdcompany.jsp</result>
+			<result name="success" type="redirectAction">company!showAll
+			</result>
+			<result name="showCompanyList">/mgcompany.jsp</result>
+		</action>
+
+		<action name="server" class="com.wedding.service.action.ServerDispacthAction">
+			<result name="server">/mdserver.jsp</result>
+			<result name="error">/msserver.jsp</result>
+			<result name="success" type="redirectAction">server!showAll
+			</result>
+			<result name="showServerList">/mgserver.jsp</result>
+		</action>
+	</package>
+</struts>
+	

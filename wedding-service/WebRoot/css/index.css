@@ -1,0 +1,206 @@
+#container {
+	margin: 10px;
+	width: 1000px;
+}
+
+#index_top {
+	width: 100%;
+	height: 350px;
+	margin: 0 0 0 0;
+}
+
+#index_middle {
+	width: 100%;
+	height: 350px;
+	margin: 10 0 0 0;
+	text-align: right;
+}
+
+#index_center {
+	width: 100%;
+	height: 350px;
+	margin: 10 0 0 0;
+	text-align: left;
+}
+
+#index_buttom {
+	border: solid 1px #A9A9F5;
+	BORDER-TOP-WIDTH: 0px;
+	width: 100%;
+	height: 120px;
+	margin: 10 0 0 0;
+	text-align: left;
+}
+
+.fpic1 {
+	float: left;
+	WIDTH: 700px;
+	HEIGHT: 348px;
+}
+
+#focpic1 {
+	BORDER-TOP-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	BORDER-RIGHT-WIDTH: 0px;
+}
+
+#newHotel {
+	float: right;
+	width: 288px;
+	height: 350px;
+	border: solid 1px #A9A9F5;
+	BORDER-TOP-WIDTH: 0px;
+}
+
+.phang td {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 20px;
+}
+
+.nav_c {
+	float: left;
+	width: 288px;
+	background: url(../images/menu_bg.gif);
+	height: 35px;
+	text-align: left;
+	line-height: 35px;
+}
+
+.nav_v {
+	float: right;
+	background: url(../images/menu_bg.gif);
+	background-position: 0 -35;
+	height: 35px;
+	width: 712px;
+}
+
+.nav_c span {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-left: 25px;
+}
+
+#cj_0 {
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0px 5px;
+	position: relative;
+}
+
+#cj_1 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -20px;
+	position: relative;
+}
+
+#cj_2 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -50px;
+	position: relative;
+}
+
+#cj_3 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -75px;
+	position: relative;
+}
+
+#cj_4 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -105px;
+	position: relative;
+}
+
+#cj_5 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -135px;
+	position: relative;
+}
+
+#cj_6 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -165px;
+	position: relative;
+}
+
+#cj_7 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -190px;
+	position: relative;
+}
+
+#cj_8 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -215px;
+	position: relative;
+}
+
+#cj_9 {
+	height: 30px;
+	width: 100%;
+	background: url(../images/num.png) no-repeat;
+	background-position: 0 -245px;
+	position: relative;
+}
+
+.qq1 {
+	text-align: center;
+	width: 25%;
+	background: url(../images/menu_bg.gif);
+	background-position: 0 -35;
+}
+
+.q1 {
+	text-align: center;
+	width: 25%;
+	background: url(../images/menu_bg.gif);
+	background-position: 0 -35;
+}
+
+.qq2 {
+	color: #fff;
+	text-align: center;
+	width: 25%;
+	font-weight: bold;
+	background: url(../images/menu_bg.gif);
+}
+
+.q2 {
+	color: #fff;
+	text-align: center;
+	width: 25%;
+	font-weight: bold;
+	background: url(../images/menu_bg.gif);
+}
+
+.com_pic {
+	float: right;
+	width: 700px;
+	height: 350px;
+}
+
+.hot_pic {
+	width: 700px;
+	height: 350px;
+}

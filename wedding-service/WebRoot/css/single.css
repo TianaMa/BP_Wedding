@@ -1,0 +1,85 @@
+#container {
+	margin: -10px 0 -10px 0;
+	width: 1000px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+.nav_c {
+	float: left;
+	width: 288px;
+	background: url(../images/menu_bg.gif);
+	height: 35px;
+	text-align: left;
+	line-height: 35px;
+}
+
+.nav_v {
+	float: right;
+	background: url(../images/menu_bg.gif);
+	background-position: 0 -35;
+	height: 35px;
+	width: 712px;
+}
+
+.nav_c span {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-left: 25px;
+}
+
+#leave_top {
+	width: 1000px;
+	height: 335px;
+}
+
+#leave_top .t_sh {
+	font-weight: bold;
+	color: maroon;
+	font-size: 14
+}
+
+.main_c {
+	text-align: center;
+	float: left;
+	border: solid 1px orange;
+	margin: 10 5 0 5;
+	width: 130px;
+	height: 130px;
+}
+
+.main_c img {
+	margin: 5 5 0 5;
+	width: 120px;
+	height: 80px;
+}
+
+.main_c span {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: maroon;
+	font-weight: bold;
+}
+.main_h span {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: maroon;
+	font-weight: bold;
+}
+
+.main_h {
+	text-align: center;
+	float: left;
+	border: solid 1px orange;
+	margin: 10 5 0 5;
+	width: 320px;
+	height: 200px;
+}
+
+.main_h img {
+	margin: 10 10 0 10;
+	width: 300px;
+	height: 160px;
+}
